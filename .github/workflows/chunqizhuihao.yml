@@ -3,28 +3,28 @@ name: chunqizhuihao
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
+    - cron: '1 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chunqizhuihao
         env:
-          ajrdw206: ${{ secrets.ajrdw206 }}
+          mhaqr99: ${{ secrets.mhaqr99 }}
         run: |
-          echo $ajrdw206 | jq -r .f80 | /bin/bash
-          echo $hqj9 | jq -r .fgwix09669 | /bin/bash
-          echo $aivw0 | jq -r .so64806 | /bin/bash
-          echo $oqxx6064 | jq -r .xh9910 | /bin/bash
-          echo $rss456 | jq -r .sng7456 | /bin/bash
-          echo $kaql9003 | jq -r .ifo63266 | /bin/bash
-          echo $cpjj83 | jq -r .dd7 | /bin/bash
-          echo $egh89543 | jq -r .gl19368 | /bin/bash
-          echo $gyic44 | jq -r .rxq979 | /bin/bash
-          echo $ran3 | jq -r .otrgh734 | /bin/bash
-          echo $qnqew02 | jq -r .ql48 | /bin/bash
-          echo $ippj27 | jq -r .mkro17365 | /bin/bash
-          echo $hl5 | jq -r .gs463 | /bin/bash
+          echo $mhaqr99 | jq -r .lsnx2805 | /bin/bash
+          echo $yfl02 | jq -r .y285 | /bin/bash
+          echo $di119 | jq -r .bm626 | /bin/bash
+          echo $sqfc72 | jq -r .k20 | /bin/bash
+          echo $ajiy3 | jq -r .pvm1 | /bin/bash
+          echo $bp3030 | jq -r .jbz9926 | /bin/bash
+          echo $l852 | jq -r .gekz2 | /bin/bash
+          echo $yshm9 | jq -r .is343 | /bin/bash
+          echo $mdjz7 | jq -r .xdto977 | /bin/bash
+          echo $tv8054 | jq -r .wnz49 | /bin/bash
+          echo $wws114 | jq -r .mq70 | /bin/bash
+          echo $yb24762 | jq -r .gpc76866 | /bin/bash
 
