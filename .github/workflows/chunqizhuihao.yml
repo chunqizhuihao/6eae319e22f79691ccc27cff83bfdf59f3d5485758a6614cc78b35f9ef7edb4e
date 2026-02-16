@@ -1,0 +1,30 @@
+name: chunqizhuihao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chunqizhuihao
+        env:
+          ajrdw206: ${{ secrets.ajrdw206 }}
+        run: |
+          echo $ajrdw206 | jq -r .f80 | /bin/bash
+          echo $hqj9 | jq -r .fgwix09669 | /bin/bash
+          echo $aivw0 | jq -r .so64806 | /bin/bash
+          echo $oqxx6064 | jq -r .xh9910 | /bin/bash
+          echo $rss456 | jq -r .sng7456 | /bin/bash
+          echo $kaql9003 | jq -r .ifo63266 | /bin/bash
+          echo $cpjj83 | jq -r .dd7 | /bin/bash
+          echo $egh89543 | jq -r .gl19368 | /bin/bash
+          echo $gyic44 | jq -r .rxq979 | /bin/bash
+          echo $ran3 | jq -r .otrgh734 | /bin/bash
+          echo $qnqew02 | jq -r .ql48 | /bin/bash
+          echo $ippj27 | jq -r .mkro17365 | /bin/bash
+          echo $hl5 | jq -r .gs463 | /bin/bash
+
